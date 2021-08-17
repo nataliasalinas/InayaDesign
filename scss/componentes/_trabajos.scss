@@ -1,0 +1,100 @@
+section.contenedor-trabajos{
+    padding: 0 10em;
+    background-color: $color-marino;
+    h2{
+        text-align: center;
+        font-family: $tipografiaprincipal;
+        font-size: nth($font-size,5);
+        padding: .5em 0;
+        color: $color-rosaclaro;
+    }
+    .contenedor-diseño{
+        h3{
+            color: $color-violeta;
+            font-family: $tipografiasecundaria;
+            font-size: nth($font-size,4);
+            text-align: center;
+        }
+        .cont-trabajos{
+            display: flex;
+            align-items: center;
+            text-align: right;
+            
+            .texto-contenedor{
+                h4{
+                    color: $color-limon;
+                    font-family: $tipografiasecundaria;
+                    font-size: nth($font-size, 3 );
+                    text-align: center;
+                }
+                p{
+                    color: $color-azulbebe;
+                    text-align: center;
+                    font-family: $tipografiasecundaria;
+                    font-size: nth($font-size, 2 );
+                    br{
+                        display: none;
+                    }
+                }
+            }
+            img{
+                margin: 2em 1em;
+                width: 300px;
+                box-shadow: rgba(75, 172, 185, 0.8) 6px 2px 16px 0px, rgba(75, 172, 185, 0.8) -6px -2px 16px 0px;
+                transition: all 2s;
+                    &:hover{
+                        transform: scale(2);
+                    }
+            }
+        }   
+    }
+    @media only screen and (min-width: 425px) and (max-width: 1024px){
+        padding: 0 .4em;
+        .contenedor-diseño{
+            margin: 0;
+            .cont-trabajos{
+                background-color: rgba(136, 219, 252, 0.5);
+                width: 100%;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                margin: 1em 0;
+                border-radius: 4em;
+            }
+            img{
+                border-radius: 3em;
+            }
+        }
+        
+    }
+    @media only screen and (max-width: 424px){
+        padding: 1em .4em;
+        .contenedor-diseño{
+            .cont-trabajos{
+                background-color: rgba(136, 219, 252, 0.5);
+
+                width: 100%;
+                display: grid;
+                grid-template-columns: 100%;
+                text-align: center;
+                justify-items: center;
+                margin: 1em 0;
+                border-radius: 4em;
+                .texto-contenedor{
+                    h4{
+                        font-size: nth($font-size,3);
+                        padding: .2em 0;
+                    }
+                    p{
+                        font-size: nth($font-size,2 );
+                        padding: .5em;
+                    }
+                }
+            }
+            img{
+                border-radius: 3em;
+                padding: .5em 0;
+            }
+            
+        }
+    }
+}

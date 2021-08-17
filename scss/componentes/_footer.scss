@@ -1,0 +1,56 @@
+@import "../base/colors";
+footer{
+    background-color: $color-limon;
+    justify-content: space-around;
+    height: 150px;
+    @extend %display-flex;
+    
+    .footer-flex{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .h2-footer{
+        font-family: $tipografiaprincipal;
+        color: $color-marino;
+        font-size: 3em;
+    }
+    h3{
+        text-align: center;
+        color: $color-marino;
+        font-family: $tipografiasecundaria;
+        font-size: 1.5em;
+    }
+    ul li{
+        @extend %style-link;
+    }
+    .nav-footer ul li a{
+        text-decoration: none;
+        font-family: $tipografiasecundaria;
+        color: $color-marino;
+        font-size: 1.5em;
+    }    
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    /* TABLETS */
+    @media only screen and (min-width: 425px) and (max-width: 1024px){
+        nav{
+            display: none;
+        }
+    }
+     /* MOBILE */
+    @media only screen and (max-width: 424px){
+        nav{
+            display: none;
+        }
+        h2.h2-footer{
+            font-size: 2.8em;
+        }
+        h3{
+            font-size: 1.5em;
+        }
+    }
+}

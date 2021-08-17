@@ -1,0 +1,361 @@
+section.sobremi{
+    background: linear-gradient(to right, rgba(101, 78, 163, 0.3), rgba(234, 175, 200, 0.3)), url(../img/img-sobremi.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 0 4em;
+
+    h2.h2-sobremi{
+        font-size: nth($font-size, 5);
+        color: $color-azulbebe;
+        font-family: $tipografiaprincipal;
+        padding: .5em;
+        
+            @media only screen and (min-width: 425px) and (max-width: 1024px){
+                padding: .5em;
+            }
+            @media only screen and (max-width: 424px){
+                padding: .5em;
+            }
+    }
+    .contenedor-sobremi{
+        @include grid (grid, center, 30% 70%);
+        
+        @media only screen and (min-width: 425px) and (max-width: 1024px){
+            display: grid;
+            grid-template-columns: 100%;
+            align-items: center;
+        }
+        @media only screen and (max-width: 424px){
+            display: grid;
+            grid-template-columns: 100%;
+            align-items: center;
+        }
+        
+        .p-sobremi{
+            background-color: rgba(244, 215, 204, 0.7);
+            height: 600px;
+            width: $ancho-operador - 10%;
+            margin: 2em;
+            border-radius: 3em;
+            
+            
+
+                h2{
+                    color: $color-celestito;
+                    padding: .5em 0;
+                    font-size: nth($font-size, 5);
+                    font-family: $tipografiaprincipal;
+                    
+                        span{
+                            font-family: $tipografiaterciaria;
+                        }
+                }
+                p{
+                    font-family: $tipografiasecundaria;
+                    font-size: nth($font-size, 4);
+                    color: $color-marino;
+                    padding: .5em 1em;
+
+                        a{
+                            @extend %style-link;
+                            font-size: .9em;
+                            color: $color-celestito;
+                                &:hover{
+                                    color: $color-violeta;
+                                }
+                        }
+                }
+                .megusta{
+                    ul{
+                        display: flex;
+                        justify-content: center;
+
+                            li{
+                                @extend %style-link;
+                                font-size: nth($font-size, 5);
+                                padding: 1em .3em;
+                                color: $color-violeta;
+                                    &:hover{
+                                        color: $color-limon;
+                                        transition: 1s;
+                                        @include transform (scale(1.5) rotate(-360deg));
+                                    }
+                            }
+                    }
+                }
+        }
+    }
+    .contacto-sobremi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(244, 215, 204, 0.7);
+        height: 600px;
+        width: $ancho-operador - 20%;
+        margin: 3em;
+        border-radius: 3em;
+        text-decoration: none;
+
+            ul li{
+                @extend %style-link;
+
+                i{
+                    color: $color-violeta;
+                    font-size: nth($font-size, 9);
+                    padding: 20px 0;
+
+                    &:hover{
+                        color: $color-limon;
+                        @include transform (rotate(360deg));
+                        transition: 1s;
+                    }
+                    
+                }
+                h3{
+                    color: $color-celestito;
+                    font-size: nth($font-size, 3);
+                    font-family: $tipografiasecundaria;
+                }
+
+                
+            }
+        
+    }
+    @media only screen and (min-width: 425px) and (max-width: 1024px){
+        padding: 0 1em;
+        margin: auto;
+        
+        .contenedor-sobremi{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 100%;
+            
+            .contacto-sobremi {
+                height: 150px;
+                margin: 1em auto;
+                ul{
+                    display: flex;
+                    width: 100%;
+                    
+                    li{
+                        font-size: 0.8em;
+                        i{
+                            padding: 0 .4em;
+                        }
+                    }
+                    h3{
+                        font-size: nth($font-size, 2);
+                        
+                    }
+                    h3.h3-contacto{
+                        display: none;
+                    }
+                }
+            }
+            .p-sobremi{
+                height: 400px;
+                width: $ancho-operador - 20%;
+                margin: 1em 3em;
+                padding: 0;
+                h2{
+                    padding: 1em 0;
+                    font-size: nth($font-size, 4);
+                }
+                p{
+                    font-size: nth($font-size, 3);
+                    padding: 0 .5em;
+                }
+                .megusta{
+                    display: none;
+                }
+            }
+        }
+
+    }
+    @media only screen and (max-width: 424px){
+        padding: 0 1em;
+        margin: auto;
+        
+        .contenedor-sobremi{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 100%;
+            
+            .contacto-sobremi {
+                height: 150px;
+                margin: 1em auto;
+                ul{
+                    display: flex;
+                    width: 100%;
+                    
+                    li{
+                        font-size: 0.8em;
+                        i{
+                            padding: 0 .13em;
+                        }
+                    }
+                    h3{
+                        font-size: 1em;
+                        
+                    }
+                    h3.h3-contacto{
+                        display: none;
+                    }
+                }
+            }
+            .p-sobremi{
+                height: 400px;
+                width: $ancho-operador - 20%;
+                margin: 1em 3em;
+                padding: 0;
+                h2{
+                    padding: 1em 0;
+                    font-size: nth($font-size, 3);
+                }
+                p{
+                    font-size: nth($font-size, 2);
+                    padding: 0 .5em;
+                }
+                .megusta{
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+section.servicios{
+    background-color: $color-violeta;
+    text-align: center;
+        h2{
+            color: $color-marino;
+            font-family: $tipografiaprincipal;
+            font-size: nth($font-size, 4);
+            padding: 1em 0;
+        }
+        .contenedor-servicios{
+            display: grid;
+            grid-template-columns: 100%;
+            justify-items: center;
+
+            div ul li{
+                @extend %style-link;
+                padding: 1em 30px;
+            }
+            
+            div ul li h3{
+                height: 3em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .diseñografico, .diseñoweb{
+                color: $color-azulbebe;
+                font-family: $tipografiasecundaria;
+                font-size: nth($font-size,3);
+                width: $ancho-operador - 20%;
+                margin: 2em 0;
+
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+
+                .cont-diseño{
+                    height: 200px;
+                    width: 200px;
+                }
+
+                .servicio1{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-diseñologo.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-diseñologo-atras.png);
+                        }
+                }
+                .servicio2{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-manualnormas.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-manualnormas-atras.png);
+                        }
+                }
+                .servicio3{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-diseñoredessociales.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-diseñoredessociales-atras.png);
+                        }
+                }
+                .servicio4{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-editorial.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-editorial-atras.png);
+                        }
+                }
+                .servicio5{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-htmlcss.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-htmlcss-atras.png);
+                        }
+                }
+                .servicio6{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-responsive.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-responsive-atras.png);
+                        }
+                }
+                .servicio7{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-maquetacion.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-maquetacion-atras.png);
+                        }
+                }
+                .servicio8{
+                    @extend %img-servicios;
+                    background-image: url(../../img/servicios-landingpage.png);
+                    
+                        &:hover{
+                            @extend %img-servicios;
+                            @extend %img-hover-servicios;
+                            background-image: url(../../img/servicios-landingpage-atras.png);
+                        }
+                }
+
+            }
+        }
+
+}

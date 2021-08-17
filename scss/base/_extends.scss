@@ -1,0 +1,26 @@
+%style-link{
+    list-style-type: none;
+    text-decoration: none;
+}
+%display-flex{
+    display: flex;
+    align-items: center;
+}
+
+%img-servicios{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+%img-hover-servicios{
+    transition: all 3s;
+    transform: rotate(360deg);
+}
+
+%img-servicios-html{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+}

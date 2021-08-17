@@ -1,0 +1,163 @@
+section.sobremi-section{
+    background-color: $color-azulclaro;
+    h2 {
+        text-align: center;
+        color: $color-rosaclaro;
+        font-family: $tipografiaprincipal;
+        font-size: nth($font-size,5);
+        padding: 1em 0;
+    }
+    .contenedor-sobremi-texto{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 1em;
+        text-align: center;
+
+        .texto-sobremi{
+            h3{
+            color: $color-azulbebe;
+            font-family: $tipografiasecundaria;
+            font-size: nth($font-size,5);
+            }
+            p{
+                color: $color-marino;
+                font-family: $tipografiasecundaria;
+                font-size: nth($font-size,4);
+                padding: 1em 0;
+            }
+        }
+        .megustan-sobremi{
+            display: flex;
+            justify-content: center;
+            ul{
+                li{
+                    @extend %style-link;
+                    i{
+                        color: $color-limon;
+                        font-size: nth($font-size, 6);
+                        padding: .2em 0;
+                        transition: 1s;
+                        &:hover{
+                            color: $color-rosaclaro;
+                            transform: scale(1.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contendor-skill{
+        padding: 2em 0;
+        .barra-nombre{
+            font-family: $tipografiaprincipal;
+            color: $color-marino;
+            font-size: nth($font-size,4);
+            text-transform: uppercase;
+            margin: 20px; //Sacar en mediaqueries
+        }
+        .barra-progreso{
+            height: 14px;
+            background-color: $color-negro;
+            border-radius: 3px;
+            .progreso{
+                height: 14px;
+                background-color: $color-limon;
+                border-radius: 3px;
+                position: relative;
+                animation: progreso 2.5s 1;
+                &::before{
+                    color: $color-negro;
+                    content: attr(per);
+                    position: absolute;
+                    padding: 4px 6px;
+                    background: $color-limon;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    top: -35px;
+                    right: 0;
+                    transform: translateX(50%);
+                }
+                @keyframes progreso {
+                    from{
+                        width: 0;
+                    }
+                    to{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 425px) and (max-width: 1024px){
+        padding: 4em;
+        h2{
+            font-size: nth($font-size,4);
+            padding: .5em 0;
+        }
+        .contenedor-sobremi-texto{
+            display: grid;
+            grid-template-columns: 100%;
+            .megustan-sobremi {
+                ul{
+                    display: flex;
+                    li{
+                        padding: 0 1em;
+                    }
+                }
+            }
+        }
+        .contendor-skill{
+            .barra-progreso{
+                .progreso{
+                    background-color: $color-rosaclaro;
+                    &::before{
+                        background-color: $color-rosaclaro;
+                    }
+                }
+            }
+        }
+
+
+    }
+    @media only screen and (max-width: 424px){
+        padding: 2em;
+        h2{
+            font-size: nth($font-size,4);
+            padding: .3em 0;
+        }
+        .contenedor-sobremi-texto{
+            display: grid;
+            grid-template-columns: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 2em 1em;
+            text-align: center;
+    
+            .texto-sobremi{
+                h3{
+                color: $color-azulbebe;
+                font-family: $tipografiasecundaria;
+                font-size: nth($font-size,3);
+                }
+                p{
+                    color: $color-marino;
+                    font-family: $tipografiasecundaria;
+                    font-size: nth($font-size,3);
+                    padding: 1em 0;
+                }
+            }
+            .megustan-sobremi {
+                display: none;
+            }
+        }
+        .contendor-skill{
+            .barra-nombre{
+                font-size: nth($font-size,3);
+                color: $color-limon;
+                
+            }
+        }
+    }
+}

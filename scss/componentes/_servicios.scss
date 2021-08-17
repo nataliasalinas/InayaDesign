@@ -1,0 +1,144 @@
+section.servicios-contenedor{
+    background-color: $color-violeta;
+    h2{
+        text-align: center;
+        font-family: $tipografiaprincipal;
+        color: $color-blanco;
+        font-size: nth($font-size,6);
+        padding: .5em 0;
+    }
+    h3{
+        color: $color-rosaclaro;
+        font-family: $tipografiasecundaria;
+        font-size: nth($font-size,4);
+        text-align: center;
+    }
+    .cont-img-p{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding: 1em 0;
+        .img-div1{
+            background-image: url(../../img/servicios-htmlcss.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/html-servicios-img.svg);
+            }
+
+        }
+        .img-div2{
+            background-image: url(../../img/servicios-responsive.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/responsive-servicios-img.svg);
+            }
+
+        }
+        .img-div3{
+            background-image: url(../../img/servicios-maquetacion.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/htmlcss-servicios-img.svg);
+            }
+
+        }
+        .img-div4{
+            background-image: url(../../img/servicios-landingpage.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/landing-servicios-img.svg);
+            }
+
+        }
+        .img-div5{
+            background-image: url(../../img/servicios-diseñologo.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/disenologo-servicios-img.svg);
+            }
+
+        }
+        .img-div6{
+            background-image: url(../../img/servicios-manualnormas.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/manual-servicios-img.svg);
+            }
+
+        }
+        .img-div7{
+            background-image: url(../../img/servicios-diseñoredessociales.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/redessociales-servicios-img.svg);
+            }
+
+        }
+        .img-div8{
+            background-image: url(../../img/servicios-editorial.png);
+            @extend %img-servicios-html;
+
+            &:hover{
+                background-image: url(../../img/editorial-servicios-img.svg);
+            }
+
+        }
+        .conteneor-textos-servicios{
+            background-color: rgba(255, 255, 255, 0.2);
+            height: 300px;
+            padding: 1em;
+            border-radius: 5em;
+            h4{
+                font-family: $tipografiasecundaria;
+                color: $color-rosaclaro;
+                font-size: nth($font-size,4);
+                text-align: center;
+                padding: .3em 0
+            }
+            p{
+                font-family: $tipografiasecundaria;
+                color: $color-marino;
+                font-size: nth($font-size,3);
+                text-align: center;
+            }
+        }
+    }
+    @media only screen and (min-width: 425px) and (max-width: 1024px){
+        padding: 0;
+        .cont-img-p{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            justify-items: center;
+            padding: 1em 3em;
+            .img-div1, .img-div2, .img-div3, .img-div4, .img-div5, .img-div6, .img-div7, .img-div8{
+                width: 250px;
+            }
+            .conteneor-textos-servicios{
+                height: 250px;
+            }
+        }
+    }
+    @media only screen and (max-width: 424px){
+        padding: 0;
+        
+        .cont-img-p{
+            display: grid;
+            grid-template-columns: 100%;
+            justify-items: center;
+            padding: 1em 0;
+            .img-div1, .img-div2, .img-div3, .img-div4, .img-div5, .img-div6, .img-div7, .img-div8{
+                width: 200px;
+            }
+            .conteneor-textos-servicios{
+                height: 200px;
+            }
+        }
+        
+    }
+}

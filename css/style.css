@@ -1,0 +1,1000 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+section, main {
+  padding: 0 20em;
+}
+
+section.blog-section .contenedor-flex .contenido-blog a, section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul li, section.servicios .contenedor-servicios div ul li, section.sobremi .contacto-sobremi ul li, section.sobremi .contenedor-sobremi .p-sobremi .megusta ul li, section.sobremi .contenedor-sobremi .p-sobremi p a, footer ul li, header a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+section.servicios .contenedor-servicios .diseñografico .servicio8:hover, section.servicios .contenedor-servicios .diseñoweb .servicio8:hover, section.servicios .contenedor-servicios .diseñografico .servicio8, section.servicios .contenedor-servicios .diseñoweb .servicio8, section.servicios .contenedor-servicios .diseñografico .servicio7:hover, section.servicios .contenedor-servicios .diseñoweb .servicio7:hover, section.servicios .contenedor-servicios .diseñografico .servicio7, section.servicios .contenedor-servicios .diseñoweb .servicio7, section.servicios .contenedor-servicios .diseñografico .servicio6:hover, section.servicios .contenedor-servicios .diseñoweb .servicio6:hover, section.servicios .contenedor-servicios .diseñografico .servicio6, section.servicios .contenedor-servicios .diseñoweb .servicio6, section.servicios .contenedor-servicios .diseñografico .servicio5:hover, section.servicios .contenedor-servicios .diseñoweb .servicio5:hover, section.servicios .contenedor-servicios .diseñografico .servicio5, section.servicios .contenedor-servicios .diseñoweb .servicio5, section.servicios .contenedor-servicios .diseñografico .servicio4:hover, section.servicios .contenedor-servicios .diseñoweb .servicio4:hover, section.servicios .contenedor-servicios .diseñografico .servicio4, section.servicios .contenedor-servicios .diseñoweb .servicio4, section.servicios .contenedor-servicios .diseñografico .servicio3:hover, section.servicios .contenedor-servicios .diseñoweb .servicio3:hover, section.servicios .contenedor-servicios .diseñografico .servicio3, section.servicios .contenedor-servicios .diseñoweb .servicio3, section.servicios .contenedor-servicios .diseñografico .servicio2:hover, section.servicios .contenedor-servicios .diseñoweb .servicio2:hover, section.servicios .contenedor-servicios .diseñografico .servicio2, section.servicios .contenedor-servicios .diseñoweb .servicio2, section.servicios .contenedor-servicios .diseñografico .servicio1:hover, section.servicios .contenedor-servicios .diseñoweb .servicio1:hover, section.servicios .contenedor-servicios .diseñografico .servicio1, section.servicios .contenedor-servicios .diseñoweb .servicio1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.servicios .contenedor-servicios .diseñografico .servicio8:hover, section.servicios .contenedor-servicios .diseñoweb .servicio8:hover, section.servicios .contenedor-servicios .diseñografico .servicio7:hover, section.servicios .contenedor-servicios .diseñoweb .servicio7:hover, section.servicios .contenedor-servicios .diseñografico .servicio6:hover, section.servicios .contenedor-servicios .diseñoweb .servicio6:hover, section.servicios .contenedor-servicios .diseñografico .servicio5:hover, section.servicios .contenedor-servicios .diseñoweb .servicio5:hover, section.servicios .contenedor-servicios .diseñografico .servicio4:hover, section.servicios .contenedor-servicios .diseñoweb .servicio4:hover, section.servicios .contenedor-servicios .diseñografico .servicio3:hover, section.servicios .contenedor-servicios .diseñoweb .servicio3:hover, section.servicios .contenedor-servicios .diseñografico .servicio2:hover, section.servicios .contenedor-servicios .diseñoweb .servicio2:hover, section.servicios .contenedor-servicios .diseñografico .servicio1:hover, section.servicios .contenedor-servicios .diseñoweb .servicio1:hover {
+  transition: all 3s;
+  transform: rotate(360deg);
+}
+
+section.servicios-contenedor .cont-img-p .img-div8, section.servicios-contenedor .cont-img-p .img-div7, section.servicios-contenedor .cont-img-p .img-div6, section.servicios-contenedor .cont-img-p .img-div5, section.servicios-contenedor .cont-img-p .img-div4, section.servicios-contenedor .cont-img-p .img-div3, section.servicios-contenedor .cont-img-p .img-div2, section.servicios-contenedor .cont-img-p .img-div1 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+}
+
+header {
+  /* DESKTOP */
+  background: #2c3e50;
+  /* fallback for old browsers */
+  background: linear-gradient(to left, rgba(76, 162, 175, 0.589), rgba(44, 62, 80, 0.596)), url(../img/background-header-2.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  /* DESKTOP */
+  /* TABLETS */
+  /* TABLETS */
+  /* MOBILE */
+  /* MOBILE */
+}
+header .title-h1 {
+  padding: 0.5em 0;
+  color: #F4D7CC;
+  font-size: 4em;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+header .header-logo img {
+  display: block;
+  margin: auto;
+  height: 350px;
+  width: 350px;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 2.6em 0;
+}
+header a {
+  color: #F4D7CC;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  margin: 0.5em;
+  padding: 0.3em 1em;
+  background-color: #000;
+  border-radius: 15px;
+}
+header a:hover {
+  background-color: #F4D7CC;
+  color: #3A506B;
+  transition: 0.7s;
+}
+header .header-p {
+  margin: 0 1em;
+  color: #FFF;
+  font-size: 3em;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+header .header-p span {
+  font-family: "Grand Hotel", cursive;
+  color: #F7FE72;
+  font-size: 2em;
+}
+header .nav-label, header .nav-imput {
+  display: none;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  header .header-logo img {
+    height: 350px;
+    width: 350px;
+  }
+  header div.menu-responsive {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header .nav-label {
+    font-size: 4em;
+    display: flex;
+    justify-content: end;
+    padding: 0 1em;
+    cursor: pointer;
+    color: #3A506B;
+  }
+  header nav ul {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 80px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+  header nav ul li {
+    padding: 0;
+    margin: 0;
+  }
+  header nav ul li a {
+    background-color: #71A9C3;
+    color: #F7FE72;
+    font-size: 3em;
+    width: 1100px;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: 0%;
+    padding: 0;
+    margin: 0;
+    clip-path: circle(0 at center);
+    transition: clip-path 2s ease-in-out;
+  }
+  header .nav-imput:checked + nav ul li a {
+    clip-path: circle(100% at center);
+  }
+  header .header-p {
+    font-size: 2.4em;
+  }
+}
+@media only screen and (max-width: 424px) {
+  header .header-logo img {
+    height: 350px;
+    width: 350px;
+  }
+  header div.menu-responsive {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header .nav-label {
+    font-size: 4em;
+    display: flex;
+    justify-content: end;
+    padding: 0 1em;
+    cursor: pointer;
+    color: #F4D7CC;
+  }
+  header nav ul {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    padding: 0;
+    margin: 0;
+  }
+  header nav ul li a {
+    background-color: #000;
+    color: #F7FE72;
+    font-size: 3em;
+    width: 1100px;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: 0%;
+    padding: 0;
+    margin: 0;
+    clip-path: circle(0 at center);
+    transition: clip-path 2s ease-in-out;
+  }
+  header .nav-imput:checked + nav ul li a {
+    clip-path: circle(100% at center);
+  }
+  header .header-p {
+    font-size: 2em;
+  }
+}
+
+footer {
+  background-color: #F7FE72;
+  justify-content: space-around;
+  height: 150px;
+  /* TABLETS */
+  /* MOBILE */
+}
+footer .footer-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+footer .h2-footer {
+  font-family: "Ubuntu", sans-serif;
+  color: #3A506B;
+  font-size: 3em;
+}
+footer h3 {
+  text-align: center;
+  color: #3A506B;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+}
+footer .nav-footer ul li a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #3A506B;
+  font-size: 1.5em;
+}
+footer img {
+  height: 100px;
+  width: 100px;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  footer nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 424px) {
+  footer nav {
+    display: none;
+  }
+  footer h2.h2-footer {
+    font-size: 2.8em;
+  }
+  footer h3 {
+    font-size: 1.5em;
+  }
+}
+
+section.sobremi {
+  background: linear-gradient(to right, rgba(101, 78, 163, 0.3), rgba(234, 175, 200, 0.3)), url(../img/img-sobremi.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding: 0 4em;
+}
+section.sobremi h2.h2-sobremi {
+  font-size: 4em;
+  color: #88DBFC;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0.5em;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.sobremi h2.h2-sobremi {
+    padding: 0.5em;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.sobremi h2.h2-sobremi {
+    padding: 0.5em;
+  }
+}
+section.sobremi .contenedor-sobremi {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 70%;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.sobremi .contenedor-sobremi {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.sobremi .contenedor-sobremi {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+  }
+}
+section.sobremi .contenedor-sobremi .p-sobremi {
+  background-color: rgba(244, 215, 204, 0.7);
+  height: 600px;
+  width: 90%;
+  margin: 2em;
+  border-radius: 3em;
+}
+section.sobremi .contenedor-sobremi .p-sobremi h2 {
+  color: #5DBFBD;
+  padding: 0.5em 0;
+  font-size: 4em;
+  font-family: "Ubuntu", sans-serif;
+}
+section.sobremi .contenedor-sobremi .p-sobremi h2 span {
+  font-family: "Grand Hotel", cursive;
+}
+section.sobremi .contenedor-sobremi .p-sobremi p {
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  color: #3A506B;
+  padding: 0.5em 1em;
+}
+section.sobremi .contenedor-sobremi .p-sobremi p a {
+  font-size: 0.9em;
+  color: #5DBFBD;
+}
+section.sobremi .contenedor-sobremi .p-sobremi p a:hover {
+  color: #AD95C6;
+}
+section.sobremi .contenedor-sobremi .p-sobremi .megusta ul {
+  display: flex;
+  justify-content: center;
+}
+section.sobremi .contenedor-sobremi .p-sobremi .megusta ul li {
+  font-size: 4em;
+  padding: 1em 0.3em;
+  color: #AD95C6;
+}
+section.sobremi .contenedor-sobremi .p-sobremi .megusta ul li:hover {
+  color: #F7FE72;
+  transition: 1s;
+  -webkit-transform: scale(1.5) rotate(-360deg);
+  -o-transform: scale(1.5) rotate(-360deg);
+  -moz-transform: scale(1.5) rotate(-360deg);
+  transform: scale(1.5) rotate(-360deg);
+}
+section.sobremi .contacto-sobremi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(244, 215, 204, 0.7);
+  height: 600px;
+  width: 80%;
+  margin: 3em;
+  border-radius: 3em;
+  text-decoration: none;
+}
+section.sobremi .contacto-sobremi ul li i {
+  color: #AD95C6;
+  font-size: 8em;
+  padding: 20px 0;
+}
+section.sobremi .contacto-sobremi ul li i:hover {
+  color: #F7FE72;
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: 1s;
+}
+section.sobremi .contacto-sobremi ul li h3 {
+  color: #5DBFBD;
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.sobremi {
+    padding: 0 1em;
+    margin: auto;
+  }
+  section.sobremi .contenedor-sobremi {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100%;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi {
+    height: 150px;
+    margin: 1em auto;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul {
+    display: flex;
+    width: 100%;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul li {
+    font-size: 0.8em;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul li i {
+    padding: 0 0.4em;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul h3 {
+    font-size: 1.5em;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul h3.h3-contacto {
+    display: none;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi {
+    height: 400px;
+    width: 80%;
+    margin: 1em 3em;
+    padding: 0;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi h2 {
+    padding: 1em 0;
+    font-size: 3em;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi p {
+    font-size: 2em;
+    padding: 0 0.5em;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi .megusta {
+    display: none;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.sobremi {
+    padding: 0 1em;
+    margin: auto;
+  }
+  section.sobremi .contenedor-sobremi {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100%;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi {
+    height: 150px;
+    margin: 1em auto;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul {
+    display: flex;
+    width: 100%;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul li {
+    font-size: 0.8em;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul li i {
+    padding: 0 0.13em;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul h3 {
+    font-size: 1em;
+  }
+  section.sobremi .contenedor-sobremi .contacto-sobremi ul h3.h3-contacto {
+    display: none;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi {
+    height: 400px;
+    width: 80%;
+    margin: 1em 3em;
+    padding: 0;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi h2 {
+    padding: 1em 0;
+    font-size: 2em;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi p {
+    font-size: 1.5em;
+    padding: 0 0.5em;
+  }
+  section.sobremi .contenedor-sobremi .p-sobremi .megusta {
+    display: none;
+  }
+}
+
+section.servicios {
+  background-color: #AD95C6;
+  text-align: center;
+}
+section.servicios h2 {
+  color: #3A506B;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3em;
+  padding: 1em 0;
+}
+section.servicios .contenedor-servicios {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+}
+section.servicios .contenedor-servicios div ul li {
+  padding: 1em 30px;
+}
+section.servicios .contenedor-servicios div ul li h3 {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.servicios .contenedor-servicios .diseñografico, section.servicios .contenedor-servicios .diseñoweb {
+  color: #88DBFC;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  width: 80%;
+  margin: 2em 0;
+}
+section.servicios .contenedor-servicios .diseñografico ul, section.servicios .contenedor-servicios .diseñoweb ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section.servicios .contenedor-servicios .diseñografico .cont-diseño, section.servicios .contenedor-servicios .diseñoweb .cont-diseño {
+  height: 200px;
+  width: 200px;
+}
+section.servicios .contenedor-servicios .diseñografico .servicio1, section.servicios .contenedor-servicios .diseñoweb .servicio1 {
+  background-image: url(../../img/servicios-diseñologo.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio1:hover, section.servicios .contenedor-servicios .diseñoweb .servicio1:hover {
+  background-image: url(../../img/servicios-diseñologo-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio2, section.servicios .contenedor-servicios .diseñoweb .servicio2 {
+  background-image: url(../../img/servicios-manualnormas.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio2:hover, section.servicios .contenedor-servicios .diseñoweb .servicio2:hover {
+  background-image: url(../../img/servicios-manualnormas-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio3, section.servicios .contenedor-servicios .diseñoweb .servicio3 {
+  background-image: url(../../img/servicios-diseñoredessociales.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio3:hover, section.servicios .contenedor-servicios .diseñoweb .servicio3:hover {
+  background-image: url(../../img/servicios-diseñoredessociales-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio4, section.servicios .contenedor-servicios .diseñoweb .servicio4 {
+  background-image: url(../../img/servicios-editorial.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio4:hover, section.servicios .contenedor-servicios .diseñoweb .servicio4:hover {
+  background-image: url(../../img/servicios-editorial-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio5, section.servicios .contenedor-servicios .diseñoweb .servicio5 {
+  background-image: url(../../img/servicios-htmlcss.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio5:hover, section.servicios .contenedor-servicios .diseñoweb .servicio5:hover {
+  background-image: url(../../img/servicios-htmlcss-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio6, section.servicios .contenedor-servicios .diseñoweb .servicio6 {
+  background-image: url(../../img/servicios-responsive.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio6:hover, section.servicios .contenedor-servicios .diseñoweb .servicio6:hover {
+  background-image: url(../../img/servicios-responsive-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio7, section.servicios .contenedor-servicios .diseñoweb .servicio7 {
+  background-image: url(../../img/servicios-maquetacion.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio7:hover, section.servicios .contenedor-servicios .diseñoweb .servicio7:hover {
+  background-image: url(../../img/servicios-maquetacion-atras.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio8, section.servicios .contenedor-servicios .diseñoweb .servicio8 {
+  background-image: url(../../img/servicios-landingpage.png);
+}
+section.servicios .contenedor-servicios .diseñografico .servicio8:hover, section.servicios .contenedor-servicios .diseñoweb .servicio8:hover {
+  background-image: url(../../img/servicios-landingpage-atras.png);
+}
+
+section.servicios-contenedor {
+  background-color: #AD95C6;
+}
+section.servicios-contenedor h2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #FFF;
+  font-size: 5em;
+  padding: 0.5em 0;
+}
+section.servicios-contenedor h3 {
+  color: #F4D7CC;
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+section.servicios-contenedor .cont-img-p {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 1em 0;
+}
+section.servicios-contenedor .cont-img-p .img-div1 {
+  background-image: url(../../img/servicios-htmlcss.png);
+}
+section.servicios-contenedor .cont-img-p .img-div1:hover {
+  background-image: url(../../img/html-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div2 {
+  background-image: url(../../img/servicios-responsive.png);
+}
+section.servicios-contenedor .cont-img-p .img-div2:hover {
+  background-image: url(../../img/responsive-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div3 {
+  background-image: url(../../img/servicios-maquetacion.png);
+}
+section.servicios-contenedor .cont-img-p .img-div3:hover {
+  background-image: url(../../img/htmlcss-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div4 {
+  background-image: url(../../img/servicios-landingpage.png);
+}
+section.servicios-contenedor .cont-img-p .img-div4:hover {
+  background-image: url(../../img/landing-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div5 {
+  background-image: url(../../img/servicios-diseñologo.png);
+}
+section.servicios-contenedor .cont-img-p .img-div5:hover {
+  background-image: url(../../img/disenologo-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div6 {
+  background-image: url(../../img/servicios-manualnormas.png);
+}
+section.servicios-contenedor .cont-img-p .img-div6:hover {
+  background-image: url(../../img/manual-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div7 {
+  background-image: url(../../img/servicios-diseñoredessociales.png);
+}
+section.servicios-contenedor .cont-img-p .img-div7:hover {
+  background-image: url(../../img/redessociales-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .img-div8 {
+  background-image: url(../../img/servicios-editorial.png);
+}
+section.servicios-contenedor .cont-img-p .img-div8:hover {
+  background-image: url(../../img/editorial-servicios-img.svg);
+}
+section.servicios-contenedor .cont-img-p .conteneor-textos-servicios {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 300px;
+  padding: 1em;
+  border-radius: 5em;
+}
+section.servicios-contenedor .cont-img-p .conteneor-textos-servicios h4 {
+  font-family: "Lato", sans-serif;
+  color: #F4D7CC;
+  font-size: 3em;
+  text-align: center;
+  padding: 0.3em 0;
+}
+section.servicios-contenedor .cont-img-p .conteneor-textos-servicios p {
+  font-family: "Lato", sans-serif;
+  color: #3A506B;
+  font-size: 2em;
+  text-align: center;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.servicios-contenedor {
+    padding: 0;
+  }
+  section.servicios-contenedor .cont-img-p {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-items: center;
+    padding: 1em 3em;
+  }
+  section.servicios-contenedor .cont-img-p .img-div1, section.servicios-contenedor .cont-img-p .img-div2, section.servicios-contenedor .cont-img-p .img-div3, section.servicios-contenedor .cont-img-p .img-div4, section.servicios-contenedor .cont-img-p .img-div5, section.servicios-contenedor .cont-img-p .img-div6, section.servicios-contenedor .cont-img-p .img-div7, section.servicios-contenedor .cont-img-p .img-div8 {
+    width: 250px;
+  }
+  section.servicios-contenedor .cont-img-p .conteneor-textos-servicios {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.servicios-contenedor {
+    padding: 0;
+  }
+  section.servicios-contenedor .cont-img-p {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    padding: 1em 0;
+  }
+  section.servicios-contenedor .cont-img-p .img-div1, section.servicios-contenedor .cont-img-p .img-div2, section.servicios-contenedor .cont-img-p .img-div3, section.servicios-contenedor .cont-img-p .img-div4, section.servicios-contenedor .cont-img-p .img-div5, section.servicios-contenedor .cont-img-p .img-div6, section.servicios-contenedor .cont-img-p .img-div7, section.servicios-contenedor .cont-img-p .img-div8 {
+    width: 200px;
+  }
+  section.servicios-contenedor .cont-img-p .conteneor-textos-servicios {
+    height: 200px;
+  }
+}
+
+section.contenedor-trabajos {
+  padding: 0 10em;
+  background-color: #3A506B;
+}
+section.contenedor-trabajos h2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4em;
+  padding: 0.5em 0;
+  color: #F4D7CC;
+}
+section.contenedor-trabajos .contenedor-diseño h3 {
+  color: #AD95C6;
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+section.contenedor-trabajos .contenedor-diseño .cont-trabajos {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+section.contenedor-trabajos .contenedor-diseño .cont-trabajos .texto-contenedor h4 {
+  color: #F7FE72;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+section.contenedor-trabajos .contenedor-diseño .cont-trabajos .texto-contenedor p {
+  color: #88DBFC;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+}
+section.contenedor-trabajos .contenedor-diseño .cont-trabajos .texto-contenedor p br {
+  display: none;
+}
+section.contenedor-trabajos .contenedor-diseño .cont-trabajos img {
+  margin: 2em 1em;
+  width: 300px;
+  box-shadow: rgba(75, 172, 185, 0.8) 6px 2px 16px 0px, rgba(75, 172, 185, 0.8) -6px -2px 16px 0px;
+  transition: all 2s;
+}
+section.contenedor-trabajos .contenedor-diseño .cont-trabajos img:hover {
+  transform: scale(2);
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.contenedor-trabajos {
+    padding: 0 0.4em;
+  }
+  section.contenedor-trabajos .contenedor-diseño {
+    margin: 0;
+  }
+  section.contenedor-trabajos .contenedor-diseño .cont-trabajos {
+    background-color: rgba(136, 219, 252, 0.5);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 1em 0;
+    border-radius: 4em;
+  }
+  section.contenedor-trabajos .contenedor-diseño img {
+    border-radius: 3em;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.contenedor-trabajos {
+    padding: 1em 0.4em;
+  }
+  section.contenedor-trabajos .contenedor-diseño .cont-trabajos {
+    background-color: rgba(136, 219, 252, 0.5);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    justify-items: center;
+    margin: 1em 0;
+    border-radius: 4em;
+  }
+  section.contenedor-trabajos .contenedor-diseño .cont-trabajos .texto-contenedor h4 {
+    font-size: 2em;
+    padding: 0.2em 0;
+  }
+  section.contenedor-trabajos .contenedor-diseño .cont-trabajos .texto-contenedor p {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  section.contenedor-trabajos .contenedor-diseño img {
+    border-radius: 3em;
+    padding: 0.5em 0;
+  }
+}
+
+section.sobremi-section {
+  background-color: #71A9C3;
+}
+section.sobremi-section h2 {
+  text-align: center;
+  color: #F4D7CC;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4em;
+  padding: 1em 0;
+}
+section.sobremi-section .contenedor-sobremi-texto {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 1em;
+  text-align: center;
+}
+section.sobremi-section .contenedor-sobremi-texto .texto-sobremi h3 {
+  color: #88DBFC;
+  font-family: "Lato", sans-serif;
+  font-size: 4em;
+}
+section.sobremi-section .contenedor-sobremi-texto .texto-sobremi p {
+  color: #3A506B;
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  padding: 1em 0;
+}
+section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi {
+  display: flex;
+  justify-content: center;
+}
+section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul li i {
+  color: #F7FE72;
+  font-size: 5em;
+  padding: 0.2em 0;
+  transition: 1s;
+}
+section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul li i:hover {
+  color: #F4D7CC;
+  transform: scale(1.5);
+}
+section.sobremi-section .contendor-skill {
+  padding: 2em 0;
+}
+section.sobremi-section .contendor-skill .barra-nombre {
+  font-family: "Ubuntu", sans-serif;
+  color: #3A506B;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin: 20px;
+}
+section.sobremi-section .contendor-skill .barra-progreso {
+  height: 14px;
+  background-color: #000;
+  border-radius: 3px;
+}
+section.sobremi-section .contendor-skill .barra-progreso .progreso {
+  height: 14px;
+  background-color: #F7FE72;
+  border-radius: 3px;
+  position: relative;
+  animation: progreso 2.5s 1;
+}
+section.sobremi-section .contendor-skill .barra-progreso .progreso::before {
+  color: #000;
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #F7FE72;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+@keyframes progreso {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.sobremi-section {
+    padding: 4em;
+  }
+  section.sobremi-section h2 {
+    font-size: 3em;
+    padding: 0.5em 0;
+  }
+  section.sobremi-section .contenedor-sobremi-texto {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul {
+    display: flex;
+  }
+  section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul li {
+    padding: 0 1em;
+  }
+  section.sobremi-section .contendor-skill .barra-progreso .progreso {
+    background-color: #F4D7CC;
+  }
+  section.sobremi-section .contendor-skill .barra-progreso .progreso::before {
+    background-color: #F4D7CC;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.sobremi-section {
+    padding: 2em;
+  }
+  section.sobremi-section h2 {
+    font-size: 3em;
+    padding: 0.3em 0;
+  }
+  section.sobremi-section .contenedor-sobremi-texto {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+    text-align: center;
+  }
+  section.sobremi-section .contenedor-sobremi-texto .texto-sobremi h3 {
+    color: #88DBFC;
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+  }
+  section.sobremi-section .contenedor-sobremi-texto .texto-sobremi p {
+    color: #3A506B;
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    padding: 1em 0;
+  }
+  section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi {
+    display: none;
+  }
+  section.sobremi-section .contendor-skill .barra-nombre {
+    font-size: 2em;
+    color: #F7FE72;
+  }
+}
+
+section.blog-section {
+  padding: 0 10em;
+  background-color: #AD95C6;
+}
+section.blog-section h2 {
+  color: #F4D7CC;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  padding: 1em 0;
+}
+section.blog-section .contenedor-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.blog-section .contenedor-flex .contenido-blog {
+  background-color: #5DBFBD;
+  width: 70%;
+  height: 100%;
+  padding: 2em 2em;
+  margin: 2em 0;
+  border-radius: 4em;
+  display: grid;
+  justify-items: center;
+}
+section.blog-section .contenedor-flex .contenido-blog a p {
+  text-align: center;
+  color: #F7FE72;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  padding: 1em 0;
+}
+section.blog-section .contenedor-flex .contenido-blog a p span {
+  font-family: "Grand Hotel", cursive;
+}
+section.blog-section .contenedor-flex .contenido-blog img, section.blog-section .contenedor-flex .contenido-blog iframe {
+  width: 400px;
+  border: 5px solid #F4D7CC;
+  border-radius: 3em;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.blog-section {
+    padding: 0;
+  }
+  section.blog-section .contenedor-flex .contenido-blog img, section.blog-section .contenedor-flex .contenido-blog iframe {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.blog-section {
+    padding: 0;
+  }
+  section.blog-section h2 {
+    font-size: 3em;
+  }
+  section.blog-section .contenedor-flex .contenido-blog img, section.blog-section .contenedor-flex .contenido-blog iframe {
+    width: 150px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

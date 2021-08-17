@@ -1,0 +1,19 @@
+@mixin flex ($position, $display, $direction, $aling){
+    position: $position;
+    display: $display;
+    flex-direction: $direction;
+    align-items: $aling;
+}
+
+@mixin grid ($display, $justify, $template){
+    display: $display;
+    justify-content: $justify;
+    grid-template-columns: $template;
+}
+
+@mixin transform ($propiedad){
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    -moz-transform: $propiedad;
+    transform: $propiedad;
+}

@@ -1,0 +1,30 @@
+// DEFAULT VALUES
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px; // 1em = 10px
+}
+
+section, main{
+    padding: 0 20em;
+}
+
+// IMPORT
+
+@import "base/fonts";
+@import "base/colors";
+@import "base/extends";
+@import "base/listas";
+@import "base/operadores";
+@import "base/mixins";
+@import "componentes/header";
+@import "componentes/footer";
+@import "componentes/index";
+@import "componentes/servicios";
+@import "componentes/trabajos";
+@import "componentes/sobremi";
+@import "componentes/blog";
