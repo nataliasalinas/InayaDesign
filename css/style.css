@@ -17,7 +17,7 @@ section, main {
   padding: 0 20em;
 }
 
-section.blog-section .contenedor-flex .contenido-blog a, section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul li, section.servicios .contenedor-servicios div ul li, section.sobremi .contacto-sobremi ul li, section.sobremi .contenedor-sobremi .p-sobremi .megusta ul li, section.sobremi .contenedor-sobremi .p-sobremi p a, footer ul li, header a {
+section.section-404 .contenedor-404 .elecciones-404 p a, section.section-404 .contenedor-404 .div-parrafo-inicio a, section.blog-section .contenedor-flex .contenido-blog a, section.sobremi-section .contenedor-sobremi-texto .megustan-sobremi ul li, section.servicios .contenedor-servicios div ul li, section.sobremi .contacto-sobremi ul li, section.sobremi .contenedor-sobremi .p-sobremi .megusta ul li, section.sobremi .contenedor-sobremi .p-sobremi p a, footer ul li, header a {
   list-style-type: none;
   text-decoration: none;
 }
@@ -994,6 +994,143 @@ section.blog-section .contenedor-flex .contenido-blog img, section.blog-section 
   }
   section.blog-section .contenedor-flex .contenido-blog img, section.blog-section .contenedor-flex .contenido-blog iframe {
     width: 150px;
+  }
+}
+
+/* SECTION 404 */
+section.section-404 {
+  background: #2c3e50;
+  /* fallback for old browsers */
+  background: linear-gradient(to left, rgba(76, 162, 175, 0.589), rgba(44, 62, 80, 0.596)), url(../img/background-header-2.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+section.section-404 h1 {
+  color: #F4D7CC;
+  font-size: 7em;
+  font-family: "Ubuntu", sans-serif;
+  padding: 1.5em 0 0.5em 0;
+}
+section.section-404 img {
+  width: 270px;
+}
+section.section-404 .contenedor-404 {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+section.section-404 .contenedor-404 .div-parrafo-inicio p {
+  font-size: 3em;
+  font-family: "Lato", sans-serif;
+  color: #FFF;
+  margin: 0 0 1em 0;
+}
+section.section-404 .contenedor-404 .div-parrafo-inicio a {
+  color: #F7FE72;
+  font-size: 4em;
+  font-family: "Grand Hotel", cursive;
+}
+section.section-404 .contenedor-404 .div-parrafo-inicio a:hover {
+  background-color: #F7FE72;
+  color: #3A506B;
+  border-radius: 1em;
+  padding: 0.1em;
+}
+section.section-404 .contenedor-404 .elecciones-404 p {
+  font-size: 3em;
+  font-family: "Lato", sans-serif;
+  color: #FFF;
+  margin: 0 0 10px 0;
+}
+section.section-404 .contenedor-404 .elecciones-404 p a {
+  color: #F7FE72;
+  font-size: 1.5em;
+  font-family: "Grand Hotel", cursive;
+}
+section.section-404 .contenedor-404 .elecciones-404 p a:hover {
+  background-color: #F7FE72;
+  color: #3A506B;
+  border-radius: 1em;
+  padding: 0.1em;
+}
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.section-404 {
+    padding: 0;
+  }
+  section.section-404 h1 {
+    font-size: 4em;
+  }
+  section.section-404 img {
+    width: 150px;
+  }
+  section.section-404 .contenedor-404 {
+    grid-template-columns: 100%;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio p {
+    font-size: 2em;
+    margin: 0;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio p br {
+    display: none;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio a {
+    font-size: 3em;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio a:hover {
+    background-color: #F7FE72;
+    color: #3A506B;
+    border-radius: 1em;
+    padding: 0.1em;
+  }
+  section.section-404 .contenedor-404 .elecciones-404 p {
+    font-size: 2em;
+    margin: 0;
+  }
+  section.section-404 .contenedor-404 .elecciones-404 p a {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.section-404 {
+    padding: 0;
+  }
+  section.section-404 h1 {
+    font-size: 3em;
+  }
+  section.section-404 img {
+    width: 150px;
+  }
+  section.section-404 .contenedor-404 {
+    grid-template-columns: 100%;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio p {
+    font-size: 3em;
+    margin: 0;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio p br {
+    display: none;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio a {
+    font-size: 2em;
+  }
+  section.section-404 .contenedor-404 .div-parrafo-inicio a:hover {
+    background-color: #F7FE72;
+    color: #3A506B;
+    border-radius: 1em;
+    padding: 0.1em;
+  }
+  section.section-404 .contenedor-404 .elecciones-404 p {
+    font-size: 2em;
+    margin: 0;
+  }
+  section.section-404 .contenedor-404 .elecciones-404 p a {
+    font-size: 2em;
   }
 }
 
