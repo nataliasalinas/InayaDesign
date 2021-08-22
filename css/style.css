@@ -45,6 +45,8 @@ section.servicios-contenedor .cont-img-p .img-div8, section.servicios-contenedor
   height: 300px;
 }
 
+/* INDEX.HTML */
+/* HEADER */
 header {
   /* DESKTOP */
   background: #2c3e50;
@@ -218,6 +220,10 @@ header .nav-label, header .nav-imput {
   }
 }
 
+/* HEADER */
+/* INDEX.HTML */
+/* INDEX.HTML */
+/* FOOTER */
 footer {
   background-color: #F7FE72;
   justify-content: space-around;
@@ -268,6 +274,10 @@ footer img {
   }
 }
 
+/* FOOTER */
+/* INDEX.HTML */
+/* INDEX.HTML */
+/* SECTION SOBRE MI */
 section.sobremi {
   background: linear-gradient(to right, rgba(101, 78, 163, 0.3), rgba(234, 175, 200, 0.3)), url(../img/img-sobremi.svg);
   background-repeat: no-repeat;
@@ -485,9 +495,12 @@ section.sobremi .contacto-sobremi ul li h3 {
   }
 }
 
+/* SECTION SOBRE MI */
+/* SECTION SERVICIOS */
 section.servicios {
   background-color: #AD95C6;
   text-align: center;
+  /* SECTION SERVICIOS */
 }
 section.servicios h2 {
   color: #3A506B;
@@ -574,6 +587,8 @@ section.servicios .contenedor-servicios .diseñografico .servicio8:hover, sectio
   background-image: url(../../img/servicios-landingpage-atras.png);
 }
 
+/* INDEX.HTML */
+/* SERVICIOS.HTML */
 section.servicios-contenedor {
   background-color: #AD95C6;
 }
@@ -697,6 +712,8 @@ section.servicios-contenedor .cont-img-p .conteneor-textos-servicios p {
   }
 }
 
+/* SERVICIOS.HTML */
+/* TRABAJOS.HTML */
 section.contenedor-trabajos {
   padding: 0 10em;
   background-color: #3A506B;
@@ -790,6 +807,8 @@ section.contenedor-trabajos .contenedor-diseño .cont-trabajos img:hover {
   }
 }
 
+/* TRABAJOS.HTML */
+/* SOBREMI.HTML */
 section.sobremi-section {
   background-color: #71A9C3;
 }
@@ -936,6 +955,8 @@ section.sobremi-section .contendor-skill .barra-progreso .progreso::before {
   }
 }
 
+/* SOBREMI.HTML */
+/* BLOG.HTML */
 section.blog-section {
   padding: 0 10em;
   background-color: #AD95C6;
@@ -997,7 +1018,8 @@ section.blog-section .contenedor-flex .contenido-blog img, section.blog-section 
   }
 }
 
-/* SECTION 404 */
+/* BLOG.HTML */
+/* PAGINA404.HTML */
 section.section-404 {
   background: #2c3e50;
   /* fallback for old browsers */
@@ -1133,5 +1155,7 @@ section.section-404 .contenedor-404 .elecciones-404 p a:hover {
     font-size: 2em;
   }
 }
+
+/* PAGINA404.HTML */
 
 /*# sourceMappingURL=style.css.map */
