@@ -1023,7 +1023,7 @@ section.blog-section .contenedor-flex .contenido-blog img, section.blog-section 
 section.section-404 {
   background: #2c3e50;
   /* fallback for old browsers */
-  background: linear-gradient(to left, rgba(76, 162, 175, 0.589), rgba(44, 62, 80, 0.596)), url(../img/background-header-2.jpg);
+  background: linear-gradient(to left, rgba(76, 162, 175, 0.589), rgba(44, 62, 80, 0.596)), url(https://ibb.co/kS1WZjw);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-size: cover;
