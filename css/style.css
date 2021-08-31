@@ -1187,6 +1187,16 @@ section.formulario form .input-btn {
   border-radius: 10px;
   margin: 2em;
 }
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  section.formulario {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 424px) {
+  section.formulario {
+    padding: 0;
+  }
+}
 
 /* SECTION FORMULARIO */
 
