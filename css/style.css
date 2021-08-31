@@ -1157,5 +1157,37 @@ section.section-404 .contenedor-404 .elecciones-404 p a:hover {
 }
 
 /* PAGINA404.HTML */
+/* SECTION FORMULARIO */
+section.formulario {
+  background-color: #F4D7CC;
+}
+section.formulario form {
+  text-align: center;
+}
+section.formulario form h2 {
+  text-align: center;
+  color: #3A506B;
+  font-family: "Ubuntu", sans-serif;
+  padding: 1em 0 0 0;
+  font-size: 3em;
+}
+section.formulario form label {
+  color: #AD95C6;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+}
+section.formulario form input {
+  padding: 0.5em;
+  text-align: center;
+}
+section.formulario form .input-btn {
+  background-color: #3A506B;
+  color: #FFF;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 2em;
+}
+
+/* SECTION FORMULARIO */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+/* SECTION FORMULARIO */
+section.formulario{
+    background-color: $color-rosaclaro;
+    form{
+        text-align: center;
+        
+        h2{
+            text-align: center;
+            color: $color-marino;
+            font-family: $tipografiaprincipal;
+            padding: 1em 0 0 0;
+            font-size: nth($font-size,4);
+        }
+        label{
+            color: $color-violeta;
+            font-family: $tipografiasecundaria;
+            font-size: nth($font-size, 3);
+        }
+        input{
+            padding: .5em;
+            text-align: center;
+        }
+        .input-btn{
+            background-color: $color-marino;
+            color: $color-blanco;
+            padding: 1em;
+            border-radius: 10px;
+            margin: 2em;
+        }
+    }
+}
+/* SECTION FORMULARIO */
