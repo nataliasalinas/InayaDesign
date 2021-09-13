@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Natalia Salinas <inaya.diseno@gmail.com>",
   "license": "ISC",
   "description": "<h1 align=\"center\">Hi 👋, I'm Natalia Salinas</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
   "repository": {
