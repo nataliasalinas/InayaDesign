@@ -1,11 +1,20 @@
 {
-  "name": "clear",
+  "name": "NataliaSalinas",
   "version": "1.0.0",
+  "descrption": "Inaya Diseño - Diseño gráfico y diseño Web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "<h1 align=\"center\">Hi 👋, I'm Natalia Salinas</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliasalinas/InayaDesign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nataliasalinas/InayaDesign/issues"
+  },
+  "homepage": "https://github.com/nataliasalinas/InayaDesign#readme"
 }
