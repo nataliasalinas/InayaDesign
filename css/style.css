@@ -753,12 +753,14 @@ section.contenedor-trabajos .contenedor-diseño .cont-trabajos .texto-contenedor
 }
 section.contenedor-trabajos .contenedor-diseño .cont-trabajos img {
   margin: 2em 1em;
+  border-radius: 50%;
   width: 300px;
   box-shadow: rgba(75, 172, 185, 0.8) 6px 2px 16px 0px, rgba(75, 172, 185, 0.8) -6px -2px 16px 0px;
   transition: all 2s;
 }
 section.contenedor-trabajos .contenedor-diseño .cont-trabajos img:hover {
   transform: scale(2);
+  border-radius: 10%;
 }
 @media only screen and (min-width: 425px) and (max-width: 1024px) {
   section.contenedor-trabajos {
@@ -768,7 +770,7 @@ section.contenedor-trabajos .contenedor-diseño .cont-trabajos img:hover {
     margin: 0;
   }
   section.contenedor-trabajos .contenedor-diseño .cont-trabajos {
-    background-color: rgba(136, 219, 252, 0.5);
+    background-color: rgba(30, 120, 162, 0.2);
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1023,7 +1025,7 @@ section.blog-section .contenedor-flex .contenido-blog img, section.blog-section 
 section.section-404 {
   background: #2c3e50;
   /* fallback for old browsers */
-  background: linear-gradient(to left, rgba(76, 162, 175, 0.589), rgba(44, 62, 80, 0.596)), url(https://ibb.co/kS1WZjw);
+  background: linear-gradient(to left, rgba(76, 162, 175, 0.589), rgba(44, 62, 80, 0.596)), url(../img/background-header-2.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-size: cover;
