@@ -18,7 +18,7 @@ $mensaje .= "El asunto es: " . $asunto . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'inaya.diseno@gmail.com'; // El mail a donde van a llegar los mensajes
+$para = 'info@inaya-design.com'; // El mail a donde van a llegar los mensajes
 $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
